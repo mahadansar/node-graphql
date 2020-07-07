@@ -1,0 +1,32 @@
+{
+  "name": "node-graphql",
+  "version": "1.0.0",
+  "description": "GraphQL, Node.js, MongoDB and React.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahadansar/node-graphql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahadansar/node-graphql/issues"
+  },
+  "homepage": "https://github.com/mahadansar/node-graphql#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^14.7.0",
+    "mongoose": "^5.9.22"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
