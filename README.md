@@ -1,6 +1,6 @@
 # node-graphql
 
-GraphQL, Node.js, MongoDB and React.js
+GraphQL, Node.js (Express), MongoDB (Mongoose) and React.js (Context API)
 
 CMD Logs:
 
@@ -13,3 +13,9 @@ CMD Logs:
 - npm install --save mongoose
 - npm install --save bcryptjs
 - npm install --save jsonwebtoken
+- npm install --save dataloader
+
+frontend:
+
+- npx create-react-app .
+- npm install --save react-router-dom
